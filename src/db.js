@@ -9,11 +9,9 @@ const stories = [
         page: "home",
         title: "En el Apartamento",
         text: `Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.
-        La Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada
-        día más tóxicos y la guerra está cerca.
+        La Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.
         Además, no me queda nadie. Todos... se fueron... o están muertos.
-        Temo por mi seguridad. En la extranet se dice que en unos días los rebeldes
-        llegarán a la ciudad. Aún hay tiempo...
+        Temo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...
         ¿Qué fue eso? ¡una explosión!`,
         options: [
           { link: "A4", text: "...ver por la ventana el origen de la explosion?" },
@@ -23,8 +21,7 @@ const stories = [
       {
         page: "A4",
         title: null,
-        text: `La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la
-        ciudad antes de lo esperado!
+        text: `La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!
         Debo huir. Pronto.
         Ir volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.
         Sería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto`,
@@ -39,8 +36,7 @@ const stories = [
         text: `Menos mal que cargué las baterías de mi moto voladora!
         ¡Logré aterrizar bien!
         Debería llegar al Espacio Puerto con tiempo de sobra.
-        Apenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo
-        los rebeldes. No quieren que nadie huya de la ciudad.
+        Apenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.
         La Floto-Moto pierde velocidad.`,
         options: [
           { link: "A3", text: "...aterrizar en el tejado más cercano?" },
@@ -66,8 +62,7 @@ const stories = [
         page: "C2",
         title: null,
         text: `Era una trampa.
-        Los rebeldes usaron una grabación de una niña para atraer ciudadanos y
-        encarcelarlos.
+        Los rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.
         Me enviarán a las colonias de esclavos.`,
         options: [],
       },
@@ -90,8 +85,7 @@ const stories = [
       {
         page: "B1",
         title: null,
-        text: `Ir con cautela hizo que demore un poco más pero por suerte la nave aún no
-        despegó.
+        text: `Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.
         Llegé a tiempo.
         Otra explosión!
         Por suerte ya estoy en la nave.
@@ -116,10 +110,8 @@ const stories = [
       {
         page: "A5",
         title: null,
-        text: `Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a
-        la superpoblación no quedan muchos espacios abiertos.
-        Luego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se
-        acaba y la nave está por despegar en 15 minutos`,
+        text: `Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a la superpoblación no quedan muchos espacios abiertos.
+        Luego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se acaba y la nave está por despegar en 15 minutos`,
         options: [
           { link: "B1", text: "...continuar andando con cautela?" },
           { link: "C4", text: "...correr sin importar quién me vea?" },
@@ -145,8 +137,7 @@ const stories = [
         page: "home",
         title: "En el Apartamento",
         text: `Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.
-        La Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada
-        día más tóxicos y la guerra está cerca.
+        La Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.
         Además, no me queda nadie. Todos... se fueron... o están muertos.
         Temo por mi seguridad. En la extranet se dice que en unos días los rebeldes
         llegarán a la ciudad. Aún hay tiempo...
