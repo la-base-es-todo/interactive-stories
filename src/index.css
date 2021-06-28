@@ -52,9 +52,8 @@ body {
   grid-template-areas: "Foto Desc";
   border-bottom: 1px solid #e4e4e4;
   padding: 2% 0;
-      
 }
-.story-img { 
+.story-img {
   grid-area: Foto;
   margin: auto;
   height: auto;
@@ -62,7 +61,7 @@ body {
 }
 
 .story-desc {
-   grid-area: Desc;
+  grid-area: Desc;
 }
 
 .story-desc h1 {
@@ -73,17 +72,15 @@ body {
   margin: 5px 15px 2px 2%;
 }
 
-
-
-@media only screen and (max-width : 500px) {
-   /* Styles here */
-   .story-desc h1 {
+@media only screen and (max-width: 500px) {
+  /* Styles here */
+  .story-desc h1 {
     font-size: 1.5em;
   }
   .story-desc p {
     font-size: 0.8em;
   }
-  .story-img { 
+  .story-img {
     width: 90%;
     margin: auto;
     height: auto;
@@ -94,70 +91,81 @@ body {
   }
 }
 
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width: 360px) {
+  .story-img {
+    display: none;
+  }
 
- .story-img { 
-   display: none;
- }
-
- .story-data {
-   grid-template-columns: 0fr 1fr;
- }
+  .story-data {
+    grid-template-columns: 0fr 1fr;
+  }
 }
 
+.story-container {
+  padding: 2rem 8px;
+}
+
+@media (min-width: 768px) {
+  .story-container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
 
 /* Main Text */
 .title {
   text-align: center;
 }
 .main-text {
-  padding: 0 8px;
+  /* padding: 0 8px; */
   font-size: 1.8rem;
 }
 .text-paragraph {
   text-indent: 3rem;
-  opacity: 0;
+  line-height: 1.3;
 }
 
-.text-enter,
-.proyecto-enter {
+/* css transition for cross-fade effect */
+.text-enter {
   opacity: 0;
 }
-.text-enter-active,
-.proyecto-enter-active {
+.text-enter.text-enter-active {
   opacity: 1;
-  transition: opacity 1400ms;
+  transition: opacity 300ms ease-in-out;
 }
-.text-enter-done,
-.proyecto-enter-done {
+.text-enter-done {
   opacity: 1;
 }
 
-.text-exit,
-.proyecto-exit {
+.text-exit {
   opacity: 1;
 }
-.text-exit-active,
-.proyecto-exit-active {
+
+.text-exit.text-exit-active {
   opacity: 0;
-  transition: opacity 1400ms;
+  transition: opacity 300ms ease-in;
+}
+
+.text-exit-done {
+  opacity: 0;
 }
 
 /* Options */
 .options {
-  padding: 0 8px 12px 8px;
+  margin-top: 5rem;
+  padding: 12px 8px 12px 8px;
   font-size: 1.8rem;
   border-top: 2px solid rgb(160, 155, 146);
 }
 .option-slot {
   display: block;
   width: 100%;
-  font-size: 18px;
+  padding-top: 16px;
   background: transparent;
   border: none;
   cursor: pointer;
+  font-size: 18px;
   text-align: right;
-  padding-bottom: 12px;
 }
 
 .options-end {
@@ -165,4 +173,3 @@ body {
   font-size: 2rem;
   text-align: center;
 }
-

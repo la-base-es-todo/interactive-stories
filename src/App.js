@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Headroom from "react-headroom";
+import { CSSTransition, SwitchTransition } from "react-transition-group";
 
 import MainText from "./components/MainText";
 import NavBar from "./components/NavBar";
@@ -33,8 +34,16 @@ const Home = ({ setView, setStoryId }) => {
 
 const Story = ({ storyId }) => {
   const [pageToRender, setPageToRender] = useState({ page: "home" }); // which page to extract from the story book
-  const [pageObj, setPageObj] = useState({});// store the history page to be render
+  const [pageObj, setPageObj] = useState({}); // store the history page to be render
   const [storyBook, setStoryBook] = useState(null); // store the story book data: the pages
+
+  // const [inProp, setInProp] = useState(false);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setInProp(true);
+  //   }, 300);
+  // }, []);
 
   // get the story book
   useEffect(() => {
@@ -45,17 +54,24 @@ const Story = ({ storyId }) => {
   // get the history page to be render (fires on each choice)
   useEffect(() => {
     if (storyBook === null) return;
-
-    // console.log({ pageToRender }, { storyBook });
     const _pageObj = getPageStory(pageToRender, storyBook);
     setPageObj(_pageObj);
   }, [pageToRender, storyBook]);
 
   return (
-    <div>
-      <MainText pageObj={pageObj} />
-      <Options pageObj={pageObj} setPageToRender={setPageToRender} />
-    </div>
+    <SwitchTransition>
+      <CSSTransition
+        in={true}
+        key={pageObj.page}
+        timeout={300}
+        classNames="text"
+      >
+        <div className="story-container">
+          <MainText pageObj={pageObj} />
+          <Options pageObj={pageObj} setPageToRender={setPageToRender} />
+        </div>
+      </CSSTransition>
+    </SwitchTransition>
   );
 };
 
