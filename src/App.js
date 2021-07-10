@@ -19,12 +19,17 @@ const Home = ({ setView, setStoryId }) => {
       {stories.map((item) => {
         return (
           <div className="story-data">
-            <img className="story-img" src={item.cover} alt="Logo" />
+            <div className="story-img" style={{backgroundImage: `url(${item.cover})`}}></div>
             <div className="story-desc">
               <h1>{item.title}</h1>
               <p className="story-desc">{item.synopsis}</p>
-              <button onClick={() => handleStoryIdView()}>leer...</button>
-            </div>
+              <div className="actions">
+              <button onClick={() => handleStoryIdView()}><img src={'icons8-leer-32.png'}alt='read'/></button>
+              <button><img src={'icons8-share-32.png'} alt='share'/></button>
+              <button><img src={'icons8-heart-32.png'} alt='set as favourite'/></button>
+              </div>
+          </div>
+
           </div>
         );
       })}
