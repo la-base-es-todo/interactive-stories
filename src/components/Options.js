@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 const Options = ({ pageObj, setPageToRender }) => {
   if (!pageObj.options) {
     return null;
