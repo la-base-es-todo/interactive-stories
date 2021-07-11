@@ -1,27 +1,9 @@
-import { useState } from "react";
-import Headroom from "react-headroom";
-
-import NavBar from "./components/NavBar";
-import Content from "./components/Content";
+import AppRouter from "./routers/AppRouter";
 
 function App() {
-  const [view, setView] = useState("home");
-  const [storyId, setStoryId] = useState(1);
-
   return (
     <div className="App">
-      <Headroom>
-        <NavBar setView={setView} />
-      </Headroom>
-
-      <main className="App-content">
-        <Content
-          view={view}
-          storyId={storyId}
-          setView={setView}
-          setStoryId={setStoryId}
-        />
-      </main>
+      <AppRouter />
     </div>
   );
 }
