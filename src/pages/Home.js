@@ -1,7 +1,7 @@
 import { BrowserRouter, Link } from "react-router-dom";
 import stories from "../db";
 
-const Home = ({ setView, setStoryId }) => {
+const Home = () => {
   return (
     <>
       {stories.map((item) => {

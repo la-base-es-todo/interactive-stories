@@ -14,7 +14,7 @@ const Story = () => {
 
   const { storyId } = useParams();
 
-  // get the story book
+  // get the story book (the whole story)
   useEffect(() => {
     const _storyBook = stories.filter(
       (item) => item.id === parseInt(storyId)
@@ -22,7 +22,7 @@ const Story = () => {
     setStoryBook(_storyBook);
   }, []);
 
-  // get the history page to be render (fires on each choice)
+  // get the history chapter to be render (fires on each choice)
   useEffect(() => {
     if (storyBook === null) return;
     const _pageObj = getPageStory(pageToRender, storyBook);
