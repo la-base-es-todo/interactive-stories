@@ -130,8 +130,8 @@ const stories = [
   {
     id: 2,
     cover: "https://source.unsplash.com/250x200/?cats",
-    title: "Escape CATS",
-    synopsis: `mIAU`,
+    title: "Cat Paw",
+    synopsis: `En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los "Rebeldes" y los "Ciudadanos". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.`,
     story: [
       {
         page: "home",
