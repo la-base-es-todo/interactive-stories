@@ -1,5 +1,9 @@
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import stories from "../db";
+
+import iconRead from "../assets/icons8-leer-32.png";
+import iconShare from "../assets/icons8-share-32.png";
+import iconHeart from "../assets/icons8-heart-32.png";
 
 const Home = () => {
   return (
@@ -7,11 +11,15 @@ const Home = () => {
       {stories.map((item) => {
         return (
           <div className="story-data" key={item.id}>
-            <img className="story-img" src={item.cover} alt="Logo" />
+            <div className="story-img" style={{ backgroundImage: `url(${item.cover})` }}></div>
             <div className="story-desc">
               <h1>{item.title}</h1>
               <p className="story-desc">{item.synopsis}</p>
-              <Link to={`/story/${item.id}`}>leer...</Link>
+              <div className="actions">
+                <Link to={`/story/${item.id}`}><img src={iconRead} alt='read' /></Link>
+                <button><img src={iconShare} alt='share' /></button>
+                <button><img src={iconHeart} alt='set as favourite' /></button>
+              </div>
             </div>
           </div>
         );

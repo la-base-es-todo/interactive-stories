@@ -8,11 +8,6 @@ const AppRouter = () => {
     <main className="App-content">
       <Router>
         <Switch>
-          <Route path="/story/:storyId" component={NavBar} />
-          <Route path="/"></Route>
-        </Switch>
-
-        <Switch>
           <Route path="/story/:storyId" component={Story} />
           <Route exact path="/" component={Home} />
         </Switch>

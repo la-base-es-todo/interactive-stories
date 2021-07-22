@@ -21,6 +21,10 @@ const Options = ({ pageObj, setPageToRender }) => {
       ) : (
         <div className="options-end">
           <p>FIN</p>
+          <div className="end-buttons">
+            <button className="back-button">volver al inicio</button>
+          </div>
+
         </div>
       )}
     </>

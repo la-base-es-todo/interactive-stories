@@ -6,6 +6,7 @@ import MainText from "../components/MainText";
 import Options from "../components/Options";
 import getPageStory from "../api";
 import stories from "../db";
+import NavBar from "../components/NavBar";
 
 const Story = () => {
   const [pageToRender, setPageToRender] = useState({ page: "home" }); // which page to extract from the story book
@@ -30,19 +31,22 @@ const Story = () => {
   }, [pageToRender, storyBook]);
 
   return (
-    <SwitchTransition>
-      <CSSTransition
-        in={true}
-        key={pageObj.page}
-        timeout={300}
-        classNames="text"
-      >
-        <div className="story-container">
-          <MainText pageObj={pageObj} />
-          <Options pageObj={pageObj} setPageToRender={setPageToRender} />
-        </div>
-      </CSSTransition>
-    </SwitchTransition>
+    <>
+      <NavBar/>
+      <SwitchTransition>
+        <CSSTransition
+          in={true}
+          key={pageObj.page}
+          timeout={300}
+          classNames="text"
+        >
+          <div className="story-container">
+            <MainText pageObj={pageObj} />
+            <Options pageObj={pageObj} setPageToRender={setPageToRender} />
+          </div>
+        </CSSTransition>
+      </SwitchTransition>
+    </>
   );
 };
 
