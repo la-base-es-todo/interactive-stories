@@ -1,4 +1,3 @@
-import stories from "./db";
 
 export default function getPageStory(pageToRender, storyBook) {
   const result = storyBook.story.filter(
