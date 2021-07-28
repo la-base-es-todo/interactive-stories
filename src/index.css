@@ -211,6 +211,7 @@ body {
   text-align: right;
 } */
 .option-slot {
+  display: block;
   padding: 10px;
   border-radius: 50px;
   opacity: 0.8;
@@ -218,6 +219,7 @@ body {
   margin: 5px auto;
   font-size: 18px;
   max-width: fit-content;
+  cursor: pointer;
 }
 .options-end {
   padding: 32px 8px 12px 8px;

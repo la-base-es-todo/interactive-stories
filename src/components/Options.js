@@ -1,4 +1,9 @@
+import { useHistory } from "react-router-dom";
+
+
 const Options = ({ pageObj, setPageToRender }) => {
+  const history = useHistory();
+
   if (!pageObj.options) {
     return null;
   }
@@ -22,7 +27,7 @@ const Options = ({ pageObj, setPageToRender }) => {
         <div className="options-end">
           <p>FIN</p>
           <div className="end-buttons">
-            <button className="back-button">volver al inicio</button>
+            <button className="back-button" onClick={() => history.push('/')}>volver al inicio</button>
           </div>
 
         </div>
