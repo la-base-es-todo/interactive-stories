@@ -7,7 +7,7 @@ const Options = ({ pageObj, setPageToRender }) => {
     <>
       {pageObj.options.length ? (
         <div className="options">
-          <p>¿Quieres</p>
+          {/* <p>¿Quieres</p> */}
           {pageObj.options.map((option) => (
             <button
               key={option.page}

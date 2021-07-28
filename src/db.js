@@ -1,6 +1,7 @@
 const stories = [
   {
     id: 1,
+    route:"escape-a-marte",
     cover: "https://source.unsplash.com/250x200/?space",
     title: "Escape a Marte",
     synopsis: `En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los "Rebeldes" y los "Ciudadanos". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.`,
@@ -16,11 +17,11 @@ const stories = [
         options: [
           {
             link: "A4",
-            text: "...ver por la ventana el origen de la explosion?",
+            text: "Ve por la ventana el origen de la explosión",
           },
           {
             link: "A2",
-            text: "...tomar tu FlotoMoto y volar al EspacioPuerto?",
+            text: "Toma tu FlotoMoto y vuela al EspacioPuerto",
           },
         ],
       },
@@ -34,9 +35,9 @@ const stories = [
         options: [
           {
             link: "A2",
-            text: "...tomar tu FlotoMoto y volar al EspacioPuerto?",
+            text: "Toma tu FlotoMoto y vuela al EspacioPuerto",
           },
-          { link: "A5", text: "...ir al EspacioPuerto a pie?" },
+          { link: "A5", text: "Ve al EspacioPuerto a pie" },
         ],
       },
       {
@@ -48,8 +49,8 @@ const stories = [
         Apenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.
         La Floto-Moto pierde velocidad.`,
         options: [
-          { link: "A3", text: "...aterrizar en el tejado más cercano?" },
-          { link: "C1", text: "...intentar seguir volando?" },
+          { link: "A3", text: "Aterriza en el tejado más cercano" },
+          { link: "C1", text: "Intenta seguir volando" },
         ],
       },
       {
@@ -60,10 +61,10 @@ const stories = [
         Creo que no me vieron. ¡Los perdi!
         En la planta baja escucho una voz pidiendo ayuda.`,
         options: [
-          { link: "C2", text: "...asistir a quien pide ayuda?" },
+          { link: "C2", text: "Asiste a quien pide ayuda" },
           {
             link: "A6",
-            text: "...ignorar el pedido de auxilio y salir del edificio?",
+            text: "Ignora el pedido de auxilio y salir del edificio",
           },
         ],
       },
@@ -83,11 +84,11 @@ const stories = [
         options: [
           {
             link: "C3",
-            text: "...volver y ayudar a la persona que suplica por su vida?",
+            text: "Vuelve y ayuda a la persona que suplica por su vida",
           },
           {
             link: "B1",
-            text: "...seguir adelante, el cohete no esperara a nadie que se retrase?",
+            text: "Sigue adelante, el cohete no esperara a nadie que se retrase",
           },
         ],
       },
@@ -122,8 +123,8 @@ const stories = [
         text: `Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a la superpoblación no quedan muchos espacios abiertos.
         Luego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se acaba y la nave está por despegar en 15 minutos`,
         options: [
-          { link: "B1", text: "...continuar andando con cautela?" },
-          { link: "C4", text: "...correr sin importar quién me vea?" },
+          { link: "B1", text: "Continúa andando con cautela" },
+          { link: "C4", text: "Corre sin importar quién te vea" },
         ],
       },
       {
@@ -138,6 +139,7 @@ const stories = [
   },
   {
     id: 2,
+    route:"escape-a-marte-dos",
     cover: "https://source.unsplash.com/250x200/?cats",
     title: "Cat Paw",
     synopsis: `En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los "Rebeldes" y los "Ciudadanos". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.`,

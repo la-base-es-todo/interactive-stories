@@ -16,7 +16,7 @@ const Home = () => {
               <h1>{item.title}</h1>
               <p className="story-desc">{item.synopsis}</p>
               <div className="actions">
-                <Link to={`/story/${item.id}`}><img src={iconRead} alt='read' /></Link>
+                <Link to={`/story/${item.route}`}><img src={iconRead} alt='read' /></Link>
                 <button><img src={iconShare} alt='share' /></button>
                 <button><img src={iconHeart} alt='set as favourite' /></button>
               </div>

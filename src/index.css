@@ -198,8 +198,9 @@ body {
   padding: 12px 8px 12px 8px;
   font-size: 1.8rem;
   border-top: 2px solid rgb(160, 155, 146);
+  text-align: center;
 }
-.option-slot {
+/* .option-slot {
   display: block;
   width: 100%;
   padding-top: 16px;
@@ -208,8 +209,16 @@ body {
   cursor: pointer;
   font-size: 18px;
   text-align: right;
+} */
+.option-slot {
+  padding: 10px;
+  border-radius: 50px;
+  opacity: 0.8;
+  background-color: whitesmoke;
+  margin: 5px auto;
+  font-size: 18px;
+  max-width: fit-content;
 }
-
 .options-end {
   padding: 32px 8px 12px 8px;
   font-size: 2rem;

@@ -18,7 +18,8 @@ const Story = () => {
   // get the story book (the whole story)
   useEffect(() => {
     const _storyBook = stories.filter(
-      (item) => item.id === parseInt(storyId)
+      // (item) => item.id === parseInt(storyId)
+      (item) => item.route === String(storyId).trim()
     )[0];
     setStoryBook(_storyBook);
   }, []);
