@@ -1,23 +1,23 @@
 import { useHistory } from "react-router-dom";
 
 
-const Options = ({ pageObj, setPageToRender }) => {
+const Options = ({ options, setNextChapter }) => {
   const history = useHistory();
 
-  if (!pageObj.options) {
+  if (!options) {
     return null;
   }
 
   return (
     <>
-      {pageObj.options.length ? (
+      {options.length ? (
         <div className="options">
           {/* <p>¿Quieres</p> */}
-          {pageObj.options.map((option) => (
+          {options.map((option) => (
             <button
-              key={option.page}
+              key={option.link}
               className="option-slot"
-              onClick={() => setPageToRender({ page: option.link })}
+              onClick={() => setNextChapter({ page: option.link })}
             >
               {option.text}
             </button>

@@ -8,7 +8,7 @@ export const useStory = (storyId) => {
     const [nextChapter, setNextChapter] = useState({ page: 'home' }); // store which page to extract from the story book: object {page:''}
     const [chapterData, setChapterData] = useState({}); // store the history page to be render
 
-    // get the story book (the whole story data)
+    // get the STORY BOOK (the whole story data)
     useEffect(() => {
         console.log('useStoryEngine:useEffect!', { storyId });
         const bookFound = stories.filter(
@@ -19,19 +19,26 @@ export const useStory = (storyId) => {
         setStoryBook(bookFound);// todo: handle error case:story not found
     }, [storyId]);
 
-    // get the story chapter to be render (fires on each choice)  
+    // get the STORY CHAPTER to be render (fires on each choice)  
     useEffect(() => {
         console.log('useStoryEngine:useEffect!', { storyBook, nextChapter });
         if (storyBook === null) {
             console.log('     null storyBook!');
             return;
         }
-        const result = storyBook.story.filter(
+        const chapterFound = storyBook.story.filter(
             (item) => item.page === nextChapter.page
         )[0];
-        setChapterData(result);
-    }, [storyBook, nextChapter]);// todo: handle error case:story not found
 
+        // split text in to an array text, for correct screen presentation
+        if (!Array.isArray(chapterFound.text)) { //isArray yet?
+            const arrayText = chapterFound.text.split("\n");
+            chapterFound.text = arrayText;
+        }
+        console.log('        ', { chapterFound });
+
+        setChapterData(chapterFound);
+    }, [storyBook, nextChapter]);// todo: handle error case:story not found
 
 
     return {

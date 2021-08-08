@@ -1,21 +1,12 @@
-import { useEffect, useState } from "react";
+const MainText = ({ title, text }) => {
 
-const MainText = ({ pageObj }) => {
-  const [textSplitted, setTextSplitted] = useState([]);
-
-  // split the chapter text according /n token
-  useEffect(() => {
-    if (pageObj.text) {
-      const _textSplitted = pageObj.text.split("\n");
-      setTextSplitted(_textSplitted);
-    }
-  }, [pageObj]);
+  if (!text) return null;
 
   return (
     <div className="main-text">
-      {pageObj.title ? <h1 className="title">{pageObj.title}</h1> : null}
-      {textSplitted.map((text) => (
-        <p className="text-paragraph" key={text}>{text}</p>
+      {title ? <h1 className="title">{title}</h1> : null}
+      {text.map((textLine) => (
+        <p className="text-paragraph" key={textLine}>{textLine}</p>
       ))}
     </div>
   );

@@ -22,9 +22,8 @@ const Story = () => {
           classNames="text"
         >
           <div className="story-container">
-            {/* <MainText title={chapterData.title}  text={chapterData} /> */}
-            <MainText pageObj={chapterData} />
-            <Options pageObj={chapterData} setPageToRender={setNextChapter} />
+            <MainText title={chapterData.title}  text={chapterData.text} />
+            <Options options={chapterData.options} setNextChapter={setNextChapter} />
           </div>
         </CSSTransition>
       </SwitchTransition>
