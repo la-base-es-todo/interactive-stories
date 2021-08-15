@@ -35,7 +35,7 @@ export const useStory = (storyId) => {
             const arrayText = chapterFound.text.split("\n");
             chapterFound.text = arrayText;
         }
-        // console.log('        ', { chapterFound });
+        //console.log('        ', { chapterFound });
 
         setChapterData(chapterFound);
     }, [storyBook, nextChapter]);// todo: handle error case:story not found

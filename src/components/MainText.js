@@ -5,8 +5,8 @@ const MainText = ({ title, text }) => {
   return (
     <div className="main-text">
       {title ? <h1 className="title">{title}</h1> : null}
-      {text.map((textLine) => (
-        <p className="text-paragraph" key={textLine}>{textLine}</p>
+      {text.map((textLine,index) => (
+        <p className="text-paragraph" key={index}>{textLine}</p>
       ))}
     </div>
   );

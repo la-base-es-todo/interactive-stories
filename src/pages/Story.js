@@ -5,6 +5,7 @@ import { useStory } from "../hooks/useStory";
 import MainText from "../components/MainText";
 import Options from "../components/Options";
 import NavBar from "../components/NavBar";
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const Story = () => {
@@ -22,8 +23,9 @@ const Story = () => {
           classNames="text"
         >
           <div className="story-container">
-            <MainText title={chapterData.title}  text={chapterData.text} />
+            <MainText title={chapterData.title} text={chapterData.text} />
             <Options options={chapterData.options} setNextChapter={setNextChapter} />
+            <ScrollToTop chapterData={chapterData} />
           </div>
         </CSSTransition>
       </SwitchTransition>
