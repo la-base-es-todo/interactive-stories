@@ -10,20 +10,20 @@ export const useStory = (storyId) => {
 
     // get the STORY BOOK (the whole story data)
     useEffect(() => {
-        console.log('useStoryEngine:useEffect!', { storyId });
+        // console.log('useStoryEngine:useEffect!', { storyId });
         const bookFound = stories.filter(
             // (item) => item.id === parseInt(storyId)
             (item) => item.route === String(storyId).trim()
         )[0];
-        console.log('     ', { bookFound });
+        // console.log('     ', { bookFound });
         setStoryBook(bookFound);// todo: handle error case:story not found
     }, [storyId]);
 
     // get the STORY CHAPTER to be render (fires on each choice)  
     useEffect(() => {
-        console.log('useStoryEngine:useEffect!', { storyBook, nextChapter });
+        // console.log('useStoryEngine:useEffect!', { storyBook, nextChapter });
         if (storyBook === null) {
-            console.log('     null storyBook!');
+            // console.log('     null storyBook!');
             return;
         }
         const chapterFound = storyBook.story.filter(
@@ -35,7 +35,7 @@ export const useStory = (storyId) => {
             const arrayText = chapterFound.text.split("\n");
             chapterFound.text = arrayText;
         }
-        console.log('        ', { chapterFound });
+        //console.log('        ', { chapterFound });
 
         setChapterData(chapterFound);
     }, [storyBook, nextChapter]);// todo: handle error case:story not found
