@@ -161,13 +161,13 @@ body {
 }
 
 .main-text {
-    /* padding: 0 8px; */
+    padding: 0 1rem;
     font-size: 1.8rem;
 }
 
 .text-paragraph {
     padding-top: 1rem;
-    text-indent: 3rem;
+    text-indent: 1rem;
     line-height: 1.3;
 }
 
