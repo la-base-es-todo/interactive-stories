@@ -15,9 +15,9 @@ const Options = ({ options, setNextChapter }) => {
           {/* <p>¿Quieres</p> */}
           {options.map((option) => (
             <button
-              key={option.link}
+              key={option.pid}
               className="option-slot"
-              onClick={() => setNextChapter({ page: option.link })}
+              onClick={() => setNextChapter({ pid: option.pid })}
             >
               {option.text}
             </button>

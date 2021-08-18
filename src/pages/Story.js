@@ -18,13 +18,13 @@ const Story = () => {
       <SwitchTransition>
         <CSSTransition
           in={true}
-          key={chapterData.page}
+          key={chapterData.pid}
           timeout={300}
           classNames="text"
         >
           <div className="story-container">
-            <MainText title={chapterData.title} text={chapterData.text} />
-            <Options options={chapterData.options} setNextChapter={setNextChapter} />
+            <MainText title={chapterData.name} text={chapterData.text} />
+            <Options options={chapterData.links} setNextChapter={setNextChapter} />
             <ScrollToTop chapterData={chapterData} />
           </div>
         </CSSTransition>

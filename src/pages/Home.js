@@ -10,7 +10,7 @@ const Home = () => {
     <>
       {stories.map((item) => {
         return (
-          <div className="story-data" key={item.id}>
+          <div className="story-data" key={item.ifid}>
             <div className="story-img" style={{ backgroundImage: `url(${item.cover})` }}></div>
             <div className="story-desc">
               <h1>{item.title}</h1>
