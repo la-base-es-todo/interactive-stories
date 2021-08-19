@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
-import stories from "../db";
+import stories from "../db.json";
 
 import iconRead from "../assets/icons8-leer-32.png";
 import iconShare from "../assets/icons8-share-32.png";
 import iconHeart from "../assets/icons8-heart-32.png";
+
 
 const Home = () => {
   return (
     <>
       {stories.map((item) => {
         return (
-          <div className="story-data" key={item.id}>
+          <div className="story-data" key={item.ifid}>
             <div className="story-img" style={{ backgroundImage: `url(${item.cover})` }}></div>
             <div className="story-desc">
               <h1>{item.title}</h1>
