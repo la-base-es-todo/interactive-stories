@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import stories from "../db";
+import stories from "../db.json";
 
 import iconRead from "../assets/icons8-leer-32.png";
 import iconShare from "../assets/icons8-share-32.png";
 import iconHeart from "../assets/icons8-heart-32.png";
+
 
 const Home = () => {
   return (

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import stories from "../db";
+import stories from "../db.json";
 
 
 export const useStory = (storyId) => {
 
     const [storyBook, setStoryBook] = useState(null); // store the whole story book data
-    const [nextChapter, setNextChapter] = useState({ pid: 'home' }); // store which page to extract from the story book: object {page:''}
+    const [nextChapter, setNextChapter] = useState({ pid: '1' }); // store which page to extract from the story book: object {page:''}
     const [chapterData, setChapterData] = useState({}); // store the history page to be render
 
     // get the STORY BOOK (the whole story data)
