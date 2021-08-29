@@ -6,15 +6,23 @@ import MainText from "../components/MainText";
 import Options from "../components/Options";
 import NavBar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop";
+import { Helmet } from "react-helmet";
 
 
 const Story = () => {
   const { storyId } = useParams();// storyId: 'escape-a-marte'
-  const { setNextChapter, chapterData } = useStory(storyId);
+  const { setNextChapter, chapterData, storyBook } = useStory(storyId);
+
+  if (!storyBook) {
+    return null;
+  }
 
   return (
     <>
-      <NavBar />
+      <Helmet>
+        <title>{storyBook.title} - {storyBook.author}</title>
+      </Helmet>
+      <NavBar title={storyBook.title} author={storyBook.author} />
       <SwitchTransition>
         <CSSTransition
           in={true}

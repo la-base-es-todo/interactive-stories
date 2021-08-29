@@ -4,11 +4,15 @@ import stories from "../db.json";
 import iconRead from "../assets/icons8-leer-32.png";
 import iconShare from "../assets/icons8-share-32.png";
 import iconHeart from "../assets/icons8-heart-32.png";
+import { Helmet } from "react-helmet";
 
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>Storify - Historias únicas</title>
+      </Helmet>
       {stories.map((item) => {
         return (
           <div className="story-data" key={item.ifid}>
