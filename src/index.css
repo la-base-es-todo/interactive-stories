@@ -33,20 +33,29 @@ h1{
 .navbar {
     background-color: #fef9ed;
     /* background-color: rgb(178, 178, 230) ; */
-    height: 40px;
-    padding: 5px 4px 0 4px;
+    height: 5.5rem;
+    padding: 5px 4px 2px 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-.navbar ul {
+.navbar__container {
     display: grid;
-    grid-template-columns: 6fr 1fr 1fr;
-    list-style-type: none;
+    grid-template-columns: 1fr 4fr 1fr;
+    /* list-style-type: none; */
     padding: 0;
 }
 
-.navbar ul li:last-child {
-    /* padding-right: 0; */
+.navbar__container div {
+    align-self: center;
+}
+
+.navbar__container div:last-child {
     text-align: right;
+}
+
+.navbar__metadata .meta-title {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 

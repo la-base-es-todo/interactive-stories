@@ -13,12 +13,16 @@ const Story = () => {
   const { storyId } = useParams();// storyId: 'escape-a-marte'
   const { setNextChapter, chapterData, storyBook } = useStory(storyId);
 
+  if (!storyBook) {
+    return null;
+  }
+
   return (
     <>
       <Helmet>
-        {storyBook && <title>{storyBook.title} - {storyBook.author}</title>}
+        <title>{storyBook.title} - {storyBook.author}</title>
       </Helmet>
-      <NavBar />
+      <NavBar title={storyBook.title} author={storyBook.author} />
       <SwitchTransition>
         <CSSTransition
           in={true}
