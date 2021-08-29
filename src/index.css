@@ -49,6 +49,14 @@ h1{
     align-self: center;
 }
 
+@media (min-width:768px) {
+    .navbar__container {
+        max-width: 768px;
+        margin:0 auto;
+    }
+        
+}
+
 .navbar__container div:last-child {
     text-align: right;
 }
