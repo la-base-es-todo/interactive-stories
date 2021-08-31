@@ -1,0 +1,1138 @@
+ [
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30DB",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30D4",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30D5",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30D6",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30D7",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  {
+    "passages": [
+      {
+        "text": "Finalmente llegó el día. Planeo este viaje a Marte hace tiempo.\n\nLa Tierra ya no es un lugar habitable. Los gases en la atmósfera son cada día más tóxicos y la guerra está cerca.\n\nAdemás, no me queda nadie. Todos... se fueron... o están muertos.\n\nTemo por mi seguridad. En la extranet se dice que en unos días los rebeldes llegarán a la ciudad. Aún hay tiempo...\n\n¿Qué fue eso? ¡una explosión!",
+        "links": [
+          {
+            "text": "Ver por la ventana el origen de la explosion",
+            "link": "Ver por la ventana",
+            "pid": "2"
+          },
+          {
+            "text": "Intentar volar con mi moto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          }
+        ],
+        "name": "El Apartamento",
+        "pid": "1"
+      },
+      {
+        "text": "La explosión fue a unos pocos bloques de aquí. ¡Los Rebeldes llegaron a la ciudad antes de lo esperado!\n\nDebo huir. Pronto.\n\nIr volando en FlotoMoto puede ser peligroso si hay una batalla en las calles.\n\nSería un blanco muy fácil, aunque llegaría rápido al Espacio-Puerto",
+        "links": [
+          {
+            "text": "Viajar en FlotoMoto",
+            "link": "Viajar en FlotoMoto",
+            "pid": "3"
+          },
+          {
+            "text": "Ir al EspacioPuerto a pie ",
+            "link": "Ir a pie",
+            "pid": "10"
+          }
+        ],
+        "name": "Ver por la ventana",
+        "pid": "2"
+      },
+      {
+        "text": "Menos mal que cargué las baterías de mi moto voladora!\n\n¡Logré aterrizar bien!\n\nDebería llegar al Espacio Puerto con tiempo de sobra.\n\nApenas levanté vuelo escuché disparos ¡Me dieron! Me están persiguiendo los rebeldes. No quieren que nadie huya de la ciudad.\n\nLa Floto-Moto pierde velocidad.",
+        "links": [
+          {
+            "text": "Aterrizar en el tejado más cercano",
+            "link": "Aterrizar en el tejado más cercano",
+            "pid": "4"
+          },
+          {
+            "text": "Intentar seguir volando",
+            "link": "Seguir Volando",
+            "pid": "5"
+          }
+        ],
+        "name": "Viajar en FlotoMoto",
+        "pid": "3"
+      },
+      {
+        "text": "¡Logre aterrizar bien!\n\nLos rebeldes aun me persiguen pero puedo entrar al edificio y bajar por las escaleras.\n\nCreo que no me vieron. ¡Los perdi!\n\nEn la planta baja escucho una voz pidiendo ayuda.",
+        "links": [
+          {
+            "text": "Asistir a quien pide ayuda",
+            "link": "Asistir a quien pide ayuda",
+            "pid": "6"
+          },
+          {
+            "text": "Ignorar el pedido de auxilio y salir del edificio",
+            "link": "Ignorar el pedido de auxilio y salir del edificio",
+            "pid": "7"
+          }
+        ],
+        "name": "Aterrizar en el tejado más cercano",
+        "pid": "4"
+      },
+      {
+        "text": "La Floto-Moto no puede continuar. Los Rebeldes me alcanzaron.\n\nMe dispararon por la espalda.\n\nPerdí mucha sangre.",
+        "links": [],
+        "name": "Seguir Volando",
+        "pid": "5",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Era una trampa.\n\nLos rebeldes usaron una grabación de una niña para atraer ciudadanos y encarcelarlos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Asistir a quien pide ayuda",
+        "pid": "6",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Por mucho que me cueste tengo que seguir. La nave partira dentro de una hora rumbo a Marte.\n\nMientras te alejas del edificio se escucha un disparo y los gritos de auxilio se transforma en suplicas.",
+        "links": [
+          {
+            "text": "Volver y ayudar a la persona que suplica por su vida",
+            "link": "Volver para ayudar",
+            "pid": "8"
+          },
+          {
+            "text": "Seguir adelante",
+            "link": "Seguir adelante",
+            "pid": "9"
+          }
+        ],
+        "name": "Ignorar el pedido de auxilio y salir del edificio",
+        "pid": "7"
+      },
+      {
+        "text": "Los rebeldes usaron grabaciones falsas para atraer ciudadanos.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Volver para ayudar",
+        "pid": "8",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "Ir con cautela hizo que demore un poco más pero por suerte la nave aún no despegó.\n\nLlegé a tiempo.\n\nOtra explosión!\n\nPor suerte ya estoy en la nave.\n\nDespegamos.. rumbo a Marte.",
+        "links": [],
+        "name": "Seguir adelante",
+        "pid": "9",
+        "tags": [
+          "happy"
+        ]
+      },
+      {
+        "text": "Al ir a pie puedo esconderme mejor en las callejuelas de la ciudad. Debido a\nla superpoblación no quedan muchos espacios abiertos.\n\nLuego de recorrer media ciudad a pie miro el reloj y veo que el tiempo se\nacaba y la nave está por despegar en 15 minutos.",
+        "links": [
+          {
+            "text": "Seguir adelante, el cohete no esperara a nadie que se retrase",
+            "link": "Seguir adelante",
+            "pid": "9"
+          },
+          {
+            "text": "Correr sin importar quién me vea",
+            "link": "Correr",
+            "pid": "11"
+          }
+        ],
+        "name": "Ir a pie",
+        "pid": "10"
+      },
+      {
+        "text": "Al correr mi presencia fue notada por los rebeldes.\n\nMe atraparon inmediatamente.\n\nMe enviarán a las colonias de esclavos.",
+        "links": [],
+        "name": "Correr",
+        "pid": "11",
+        "tags": [
+          "sad"
+        ]
+      },
+      {
+        "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-marte,\ntitle:Escape a Marte,\nsynopsis:En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n",
+        "links": [],
+        "name": "metaData",
+        "pid": "12",
+        "metadata": {
+          "author": "Juan Lopez",
+          "year": "2021",
+          "genre": "sci-fi",
+          "cover": "https://source.unsplash.com/250x200/?space",
+          "route": "escape-a-marte",
+          "title": "Escape a Marte",
+          "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+        }
+      }
+    ],
+    "name": "Example",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.14",
+    "ifid": "EA8005BB-69BB-49EB-8B2B-A4BC6EDE30D8",
+    "author": "Juan Lopez",
+    "year": "2021",
+    "genre": "sci-fi",
+    "cover": "https://source.unsplash.com/250x200/?space",
+    "route": "escape-a-marte",
+    "title": "Escape a Marte",
+    "synopsis": "En un futuro distante la tierra ya no es un lugar habitable. La raza humana está dividida en dos facciones: los \"Rebeldes\" y los \"Ciudadanos\". Ayuda a Rick el ciudadano a escapar de la catástrofe hacia el planeta rojo.\n"
+  },
+
+  
+{
+  "passages": [
+    {
+      "text": "Bueno, al fin lejos del alcance de los rebeldes. Aqui nunca vendran a buscarme.\n\nMiro por la ventana de la nave y no veo ninguna ciudad.¿Se habran equivocado de aeropuerto?",
+      "links": [
+        {
+          "text": "Preguntar al capitan",
+          "link": "La cruda realidad",
+          "pid": "3"
+        },
+        {
+          "text": "No decir nada",
+          "link": "Un final no tan feliz",
+          "pid": "4"
+        }
+      ],
+      "name": "El Hangar",
+      "pid": "1"
+    },
+    {
+      "text": "author:Juan Lopez,\nyear:2021,\ngenre:sci-fi,\ncover:https://source.unsplash.com/250x200/?space,\nroute:escape-a-venus,\ntitle:Escape a Venus,\nsynopsis:Resulta que lo del planeta rojo era un timo. Todo el dinero de la financiacion se lo gastaron en criptomonedas. Al llegar alli nuestro protagonista se encuentra con la cruda realidad.",
+      "links": [],
+      "name": "metaData",
+      "pid": "2",
+      "metadata": {
+        "author": "Juan Lopez",
+        "year": "2021",
+        "genre": "sci-fi",
+        "cover": "https://source.unsplash.com/250x200/?space",
+        "route": "escape-a-venus",
+        "title": "Escape a Venus",
+        "synopsis": "Resulta que lo del planeta rojo era un timo. Todo el dinero de la financiacion se lo gastaron en criptomonedas. Al llegar alli nuestro protagonista se encuentra con la cruda realidad."
+      }
+    },
+    {
+      "text": "- Esteeee, pues no se lo han dicho?- me pregunta el capitan, se da media vuelta y salta por la escotilla.\n- Okeeey, eso significa que....\n\nLa nave explota al tocar tierra.",
+      "links": [],
+      "name": "La cruda realidad",
+      "pid": "3"
+    },
+    {
+      "text": "Mis pensamientos se interrumpen por el girterío de los pasajeros.\n\n-El capitan saltó de la nave!!! Ya nadie la manej...\n\n...un breve estampido es todo lo que sigue a continuacion.\n",
+      "links": [],
+      "name": "Un final no tan feliz",
+      "pid": "4"
+    }
+  ],
+  "name": "Escape a Venus",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.14",
+  "ifid": "0FFBD44C-CB1D-41D4-B96C-B8A501FC7101",
+  "author": "Juan Lopez",
+  "year": "2021",
+  "genre": "sci-fi",
+  "cover": "https://source.unsplash.com/250x200/?space",
+  "route": "escape-a-venus",
+  "title": "Escape a Venus",
+  "synopsis": "Resulta que lo del planeta rojo era un timo. Todo el dinero de la financiacion se lo gastaron en criptomonedas. Al llegar alli nuestro protagonista se encuentra con la cruda realidad."
+}
+ ]
